@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+server:
+  port: 8090
+
+
